@@ -1,0 +1,56 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+header{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+h1 {
+  color:brown; 
+  text-align: center;
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+body{
+background-image: url("https://www.hogarmania.com/archivos/202011/cosas-donar-refugio-animales-portada-1280x720x80xX.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+button:hover{
+  background-color: gray;
+  background-color: aqua;
+}
+ 
+
+footer{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+ 
+}
+
+.fondoBlanco{
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  opacity: 0.90;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  padding-top: 10px;
+  max-width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: large;
+}
