@@ -4,7 +4,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 header{
-  color: white;
+  color: rgb(236, 219, 160);
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ h1 {
 }
 
 body{
-background-image: url("https://www.hogarmania.com/archivos/202011/cosas-donar-refugio-animales-portada-1280x720x80xX.jpg");
+background-image: url("https://www.excelsiorcalifornia.com/wp-content/uploads/2021/07/RPE-L-RIVANIMAL-0723.jpg?w=1024");
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -32,10 +32,11 @@ button:hover{
  
 
 footer{
-  color: white;
+  color: rgb(236, 219, 160);
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
+  padding-top: 100px;
  
 }
 
@@ -43,7 +44,7 @@ footer{
   height: 400px;
   width: 100%;
   margin: auto;
-  background-color: white;
+  background-color: rgb(236, 219, 160);
   opacity: 0.90;
   border-radius: 10px;
   padding-left: 10px;
