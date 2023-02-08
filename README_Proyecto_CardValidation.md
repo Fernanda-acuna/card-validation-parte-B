@@ -1,8 +1,13 @@
 ## Nombre del proyecto: Card Validation 
+
 ## Descripción del proyecto:
 Este proyecto dividido en 2 partes (parte A y B), lo que busca es validar el número de una tarjeta de crédito. Para lograr esto, se contruyeron 2 funciones principales:
 > - La primera función isValid logra tomar un número ingresado en un input y con el algortimo de Luhn, se verifica si el número de la tajeta es válida o no, enviando un mensaje al usuario para informarle de esto.
->-La segunda función es Maskify y esta logra ocultar todos los números con un numeral o "#", excepto los últimos 4. 
+> - La segunda función es Maskify y esta logra ocultar todos los números con un numeral o "#", excepto los últimos 4. 
+> 
+## A quien va dirigido
+> - Los usuarios de esta página web serán personas mayores de 18 años, de cualquier género y condición que tengan una tarjeta de crédito. Estas personas no necesariamente deben sentirse comprometidos con una causa animalista, más bien desean hacer una donación de dinero, por una única vez o las veces que se desee.
+
 ## Diseño:
 >- Para el diseño se tomó la idea de una página web que aceptara donaciones para una fundación de perros rescatados de las calles. La web consta de:
 1. Una imagen de fondo
