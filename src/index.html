@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    
-  <header>Tu donación nos ayuda enormemente</header>
-    
-  <main>  
-  <h1>Fundación "Patitas a casa"</h1> 
+    <header>Tu donación nos ayuda enormemente</header>
 
-  <div class="fondoBlanco">
-    <p>Ingresa tu nombre</p>      
-    <input type="text" id="nombrePersona" placeholder="Ingrese nombre">
-    <br>
-    <p>Ingresa tu donación</p>
-    <input type="number" id="donacion" placeholder="Tu donación $$">
-    <br>
-    <p>Ingresa el número de tarjeta</p>
-    <input type="number" id="cardnumber" placeholder="Ingrese número tarjeta" maxlength="16">
-    <br>
-    <button id="botonValidar">DONA HOY</button>
+    <main>
+      <h1>Fundación "Patitas a casa"</h1>
 
-    <p id="mensaje"></p>
-  </div>
+      <div class="fondoBlanco">
+        <p>Ingresa tu nombre</p>
+        <input type="text" id="nombrePersona" placeholder="Ingrese nombre" />
+        <br />
+        <p>Ingresa tu donación</p>
+        <input type="number" id="donacion" placeholder="Tu donación $$" />
+        <br />
+        <p>Ingresa el número de tarjeta</p>
+        <input
+          type="number"
+          id="cardnumber"
+          placeholder="Ingrese número tarjeta"
+          maxlength="16"
+        />
+        <br />
+        <button id="botonValidar">DONA HOY</button>
 
-  <div class="tarjetaValidada" id="result"></div>
+        <p id="mensaje"></p>
+      </div>
 
+      <div class="tarjetaValidada" id="result"></div>
     </main>
-    <footer>Respecto a los perros, nadie que no haya convivido con ellos conocerá nunca, a fondo, hasta dónde llegan las palabras generosidad, compañía y lealtad.</footer>
+    <footer>
+      Respecto a los perros, nadie que no haya convivido con ellos conocerá
+      nunca, a fondo, hasta dónde llegan las palabras generosidad, compañía y
+      lealtad.
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
